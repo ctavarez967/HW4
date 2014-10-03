@@ -9,37 +9,37 @@
 
 </head>
 <body>
-<form id="form1" runat="server">
-<div id="main">
+    <form id="form1" runat="server">
+    <div id="calculator">
 
-    <br />
-    <h1 id="header"> Salary Calculator </h1>
+        <br />
+            <h1 id="tittle"> Salary Calculator </h1>
 
-        Your Net Pay is:<br />
-        <asp:Label ID="netPayLabel" runat="server"></asp:Label>
-    <br />
-    <br />
-        Hourly Wage:<br />
-        <asp:TextBox ID="hourlyWageTxt" runat="server"></asp:TextBox>
-   <br />
-   <br />
-        Hours Worked:<br />
-        <asp:TextBox ID="hoursTxt" runat="server"></asp:TextBox>
-   <br />
-   <br />
-        Pre-Tax Deductions:<br />
-        <asp:TextBox ID="preTaxTxt" runat="server"></asp:TextBox>
-   <br />
-   <br />
-        Post-Tax Deductions:<br />
-        <asp:TextBox ID="postTaxTxt" runat="server"></asp:TextBox>
-   <br />
-   <br />
+            Your Net Pay is:<br />
+            <asp:Label ID="netPayLabel" runat="server"></asp:Label>
+        <br />
+        <br />
+            Hourly Wage:<br />
+            <asp:TextBox ID="hourlyWageTxt" runat="server"></asp:TextBox>
+        <br />
+        <br />
+            Hours Worked:<br />
+            <asp:TextBox ID="hoursTxt" runat="server"></asp:TextBox>
+        <br />
+        <br />
+            Pre-Tax Deductions:<br />
+            <asp:TextBox ID="preTaxTxt" runat="server"></asp:TextBox>
+        <br />
+        <br />
+             Post-Tax Deductions:<br />
+             <asp:TextBox ID="postTaxTxt" runat="server"></asp:TextBox>
+       <br />
+       <br />
 
-        <asp:Button ID="btnCalculate" runat="server" Text="Calculate" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnClear" runat="server" Text="Clear" />
-</div>
-</form>
+            <asp:Button ID="btnCalculate" runat="server" Text="Calculate" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnClear" runat="server" Text="Clear" />
+    </div>
+    </form>
 </body>
 </html>

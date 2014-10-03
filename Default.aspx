@@ -12,11 +12,11 @@
     <div id="main">
     
         <br />
-        <h1 id="header"> Salary Calculator </h1>
+        <h1 > Salary Calculator </h1>
         <br />
         Your Net Pay is: <asp:Label ID="netPayLabel" runat="server"></asp:Label>
         <br />
-        <br />
+        &nbsp;<br />
         Wage:<br />
         <asp:TextBox ID="hourlyWageTxt" runat="server"></asp:TextBox>
         <br />
@@ -37,7 +37,7 @@
         <asp:Button ID="calculateButton" runat="server" Text="Calculate" />
         &nbsp;&nbsp;&nbsp;
         <asp:Button ID="clearButton" runat="server" Text="Clear" />
-    
+
     </div>
     </form>
 </body>

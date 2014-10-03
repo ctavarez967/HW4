@@ -4,41 +4,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title> Salary Calculator</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-
+    <title>Salary Calculator</title>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="calculator">
-
+    <div id="main">
+    
         <br />
-            <h1 id="tittle"> Salary Calculator </h1>
-
-            Your Net Pay is:<br />
-            <asp:Label ID="netPayLabel" runat="server"></asp:Label>
+        <h1 id="header"> Salary Calculator </h1>
         <br />
-        <br />
-            Hourly Wage:<br />
-            <asp:TextBox ID="hourlyWageTxt" runat="server"></asp:TextBox>
+        Your Net Pay is: <asp:Label ID="netPayLabel" runat="server"></asp:Label>
         <br />
         <br />
-            Hours Worked:<br />
-            <asp:TextBox ID="hoursTxt" runat="server"></asp:TextBox>
+        Wage:<br />
+        <asp:TextBox ID="hourlyWageTxt" runat="server"></asp:TextBox>
         <br />
         <br />
-            Pre-Tax Deductions:<br />
-            <asp:TextBox ID="preTaxTxt" runat="server"></asp:TextBox>
+        Hours:<br />
+        <asp:TextBox ID="hoursTxt" runat="server"></asp:TextBox>
         <br />
         <br />
-             Post-Tax Deductions:<br />
-             <asp:TextBox ID="postTaxTxt" runat="server"></asp:TextBox>
-       <br />
-       <br />
-
-            <asp:Button ID="btnCalculate" runat="server" Text="Calculate" />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btnClear" runat="server" Text="Clear" />
+        PreTax:<br />
+        <asp:TextBox ID="preTaxTxt" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        AfterTax:<br />
+        <asp:TextBox ID="postTaxTxt" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="calculateButton" runat="server" Text="Calculate" />
+        &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="clearButton" runat="server" Text="Clear" />
+    
     </div>
     </form>
 </body>
